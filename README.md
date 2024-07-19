@@ -1,12 +1,11 @@
-# Install json-server:
+## Install json-server:
 First, you need to have Node.js installed. Then, install json-server globally.
 
-# Copiază codul
 npm install -g json-server
 
-#  Mock data file: /src/db.json - > 
+##  Mock data file: /src/db.json - > 
 
-# Start json-server:
+## Start json-server:
 Run json-server with the db.json file.
 
 json-server --watch db.json --port 3001
