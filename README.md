@@ -1,3 +1,17 @@
+# Install json-server:
+First, you need to have Node.js installed. Then, install json-server globally.
+
+# Copiază codul
+npm install -g json-server
+
+#  Mock data file: /src/db.json - > 
+
+# Start json-server:
+Run json-server with the db.json file.
+
+json-server --watch db.json --port 3001
+This will start a server at http://localhost:3001 with an endpoint /users that serves the data in db.json.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
